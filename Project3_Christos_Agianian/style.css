@@ -1,0 +1,163 @@
+body{
+    background-color: lightblue
+}
+
+.div1{
+    text-align: center;
+}
+
+
+.box1{
+    /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    background-color: antiquewhite;
+    border-radius: 10px;  
+}
+
+.score-reset{
+    display: flex;
+    flex: content;
+    justify-content:space-between;
+    
+}
+
+.scores{
+    background-color: lightpink;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.reset{
+    background-color: lightpink;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 10px;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+}
+
+
+.box2{
+    width: 500px;
+    height: 400px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    align-items: center;
+    flex-direction: column ;
+    margin: auto;
+    margin-top: 30px ;
+    border-radius: 10px;
+}
+
+.input{
+    text-align: center;
+    align-items: center;
+    align-content:center ;
+    
+}
+
+.inputbox{
+    border: none;
+    padding:10px;
+    border-radius: 10px;
+}
+
+/*
+.btncont{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+*/
+.btn1{
+    background-color: transparent;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    width: 90px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.btn2{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    width:90px;
+    padding:10px;
+    color: white;
+    align-items: center;
+}
+
+.btn3{
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    width: 90px;
+    padding:10px ;
+    border: none;
+    display: none;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+
+.btn4{
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    width: 90px;
+    padding:10px ;
+    border: none;
+    display: none;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+.img1 img{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.history{
+    background-color: lightskyblue;
+    width: 40%;
+    height: 10%;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.hist{
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+

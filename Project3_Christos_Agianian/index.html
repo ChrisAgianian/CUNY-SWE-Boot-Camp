@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project3</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="div1">
+        <h1>GUESS MY NUMBER</h1>
+        <h3>Guess the number between 1 and 100</h3>
+        <br>
+    </div>
+
+    <div class="box1">
+
+        <div class="score-reset">
+            <div class="scores">
+                <h4>Score: <span id="score">10</span></h4>
+                <h4>High Score: <span id="highscore">0</span></h4>
+            </div>
+
+            <div class="reset">
+                <h4>
+                <button class="btn1" id="resetbtn"><b>Reset</b></button>
+                </h4>
+            </div>
+        </div>
+
+        <div class="box2">
+
+            <div class="img1">
+                <img src="images/guess.jpg" id="pic1">
+            </div>
+
+            <div class="input">
+
+                <input type="text" name="" class="inputbox" placeholder="guess a number">
+                <p class="" id="gamemsg1">  </p>
+                <p class="" id="gamemsg2">  </p>
+                <p class="" id="gamemsg3">  </p>
+                <button class="btn2" id="checkbtn">Check</button>
+                <p class="par1">Guess a Number</p>
+
+
+                <button class="btn3" id="playagainbtn">Play Again</button>
+                <br>
+                <button class="btn4" id="tryagainbtn">Try Again</button>
+                
+
+            </div>
+
+        </div>
+
+        <div class="history">
+            <p class="hist">Guess History <span id="histrec"></span></p>
+            
+        </div>
+
+    
+    </div>
+    
+<br>
+    <!--
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    -->
+   <script src="index.js"></script>
+   
+   <!--<script src="main.js"></script>-->
+
+</body>
+</html>
