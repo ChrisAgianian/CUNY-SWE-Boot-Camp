@@ -1,3 +1,5 @@
+//IGNORE THIS FILE IT WAS TESTING SOME JS STUFF - INDEX.JS IS THE CORRECT FILE
+
 let randomNum = Math.floor(Math.random() * 100) + 1;
 console.log(randomNum);
 
