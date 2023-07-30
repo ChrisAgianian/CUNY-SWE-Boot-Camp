@@ -1,3 +1,5 @@
+//IGNORE THIS FILE - USED FOR TESTING - MAIN.JS IS THE CORRECT ONE
+
 let  randomNum=Math.trunc(Math.random()*101);
 console.log(randomNum);
 
