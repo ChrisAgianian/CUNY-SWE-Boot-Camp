@@ -1,0 +1,502 @@
+
+/*CSS FOR MAIN PAGE*/
+
+  /*CSS FOR TITLE/LOGO PART*/
+body{
+    background-color: antiquewhite;
+}
+
+.topcont {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    padding: 20px;
+}
+
+.logobox {
+    margin-right: 20px;
+    flex: 0; /* Prevent the logobox from growing */
+}
+
+.logo{
+    float: left;
+    animation: visible 4s infinite;
+}
+
+.logo img {
+    max-width: 100px;
+}
+@keyframes visible {
+    0% {transform:scale(0.1);}
+    100% {transform:scale(1);}
+}
+
+.phrasebox{
+    float:left;
+}
+
+
+  /*CSS FOR SLIDESHOW*/
+.slidebox{
+    height:3%;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    overflow:hidden;
+    position: relative;
+    /* padding: 2px;
+    text-align: center;
+    margin: center; */
+  }
+  .slidedivs{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    animation: slideMotion 35s infinite;
+  }
+
+  .slide1,.slide2,.slide3{
+    /*
+    width:33.33%;
+    */
+    position:absolute;
+    left:0;
+    top:0;
+    
+    width:100%;
+    
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+  } 
+
+  
+.slide1 {
+    background-color: red;
+    
+    animation: slide1Motion 12s infinite; 
+    
+}
+
+.slide2 {
+    background-color: lightblue;
+    
+    animation: slide2Motion 12s infinite;
+    
+}
+
+.slide3 {
+    background-color: lightgreen;
+    
+    animation: slide3Motion 12s infinite;
+    
+}
+@keyframes slide1Motion {
+    0% { margin-left: 0%; }
+    20% { margin-left: 0%; }
+    40% { margin-left: -100%; }
+    60% { margin-left: -100%; }
+    80% { margin-left: -200%; }
+    100% { margin-left: -200%; }
+}
+
+@keyframes slide2Motion {
+    0% { margin-left: 100%; }
+    20% { margin-left: 100%; }
+    40% { margin-left: 0%; }
+    60% { margin-left: 0%; }
+    80% { margin-left: -100%; }
+    100% { margin-left: -100%; }
+}
+
+@keyframes slide3Motion {
+    0% { margin-left: 200%; }
+    20% { margin-left: 200%; }
+    40% { margin-left: 100%; }
+    60% { margin-left: 100%; }
+    80% { margin-left: 0%; }
+    100% { margin-left: 0%; }
+}
+
+  /*CSS FOR BIG PICTURE AND TEXTBLOCK*/
+.intro{
+    width:100%;
+    display: flex;
+ 
+}
+
+.pic{
+    background-image: url(images/intro1.jpg);
+    width: 100%;
+    height: 500px;
+    /*
+    position: relative;
+    */
+    position: static;
+    background-size:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.text{
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: 40%;
+    width: 300px;
+    height: 200px;
+    margin-left: -400px;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for better text readability */
+    padding: 10px;
+    border: 5px solid lightgray; /* Add light gray border */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    word-wrap: break-word;
+    float: left;
+}
+
+.par1{
+    text-align: center;
+    display: flex;
+    float: left;
+    justify-content: center;
+    overflow-wrap: break-word;
+}
+
+  /*CSS FOR 2 SMALLER PICS AND TEXTS*/
+.reviews{
+  display: flex;
+  justify-content:space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.box1{
+  background-image: url(images/intro2.jpg);
+  background-image: linear-gradient(Semi-transparent);
+  width: 600px;
+  height: 400px;
+  position: static;
+  background-size:100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.par2{
+  width:300px;
+  border: 2px solid yellow;
+  padding: 10px;
+  margin-left: 10px;
+  color: black;
+}
+
+.box2{
+  background-color: rebeccapurple;
+  background-image:linear-gradient(red, orange);
+  width: 600px;
+  height: 400px;
+  /*
+  position: relative;
+  */
+  position: static;
+  background-size:100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+
+
+.par3{
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.par4{
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.par5{
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+  /*CSS FOR HR TAGS*/
+.separator{
+  padding:20px;
+}
+
+.hr{
+  border:1px solid lightslategray;
+}
+
+  /*CSS FOR THE PRODUCTS/SETS PART*/
+.bikesbox{
+  display: flex;
+  justify-content: space-between;
+}
+
+.divbike{
+  width: 30%;
+  height: 70%;
+  margin-left: 5%;
+  float: left;
+  text-align: center;
+}
+
+.bike1 img{
+ width:200px;
+ height:200px;
+}
+
+
+.bike2 img{
+  width:200px;
+  height:200px;
+}
+
+
+.bike3 img{
+  width:200px;
+  height:200px;
+}
+
+.setsbox{
+  display: flex;
+  justify-content: space-between;
+}
+
+.set1 img{
+ width:200px;
+ height:200px;
+}
+
+.set2 img{
+  width:200px;
+  height:200px;
+}
+
+.set3 img{
+  width:200px;
+  height:200px;
+}
+
+button{
+  background-color: black;
+  color: lightgrey;
+  cursor: pointer;
+  height:30px;
+}
+
+.btn:hover{
+  background-color: gray;
+}
+
+.bike1, .bike2, .bike3{
+  width:60%;
+  height: 45%;
+  margin: auto;
+  /* border: 2px solid yellow; */
+  text-align: center;
+}
+
+.set1, .set2, .set3{
+  width:60%;
+  height: 45%;
+  margin: auto;
+  /* border: 2px solid yellow; */
+  text-align: center;
+}
+
+.p1{
+  font-size: 18px;
+  color: orangered;
+   font-family:cursive;
+}
+
+.p2{
+  font-size: 15px;
+  color:black;
+  font-family:timesnewroman;
+  overflow-wrap: break-word ;
+}
+
+
+  /*CSS FOR MODALS*/
+
+.mod1{
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  left:0;
+  top:0;
+  bottom:0;
+  right:0;
+  background-color: rgba(222, 222, 119,0.8);
+}
+
+.mod1:target{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modcont{
+  
+  width:70%;
+  height:60%;
+  margin: auto;
+  /* margin-left:10%; */
+  margin-top: 20%;
+  background-color: white;
+}
+
+.headcont{
+  padding: 20px;
+}
+
+.graybox{
+  background-color: lightgray;
+  width: 100%;
+  height: 30%;
+}
+
+.grayboxcont{
+  padding:20px;
+  
+}
+
+.exit{
+  float: right;
+  background-color: lightgrey;
+  height:25px;
+  width:30px;
+  text-align: center;
+}
+
+
+.modmiddle{
+ height:40%;
+ width:100%;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.desc{
+  text-align: center;
+  margin-top: 15px;
+  float:right;
+  overflow: auto;
+}
+
+.modpic{
+  width: 30%;
+  height: 70%;
+   /* border: 2px solid red; */
+  margin-left:7%;
+  margin-top: 7%;
+  float: left;
+}
+
+.modpic img{
+  height: 100%;
+  width: 100%;
+}
+
+.contbtn{
+  background-color: white;
+  color: black;
+}
+
+  /*CSS FOR BOTTOM PART OF PAGE - LINKS*/
+
+.bottom{
+    width: 100%;
+    height: 400px;
+    border: 2px solid black;
+    background-color: black;
+    bottom:0%;
+    margin-top:120px;
+  }
+.bottomboxarea{
+    width: 100%;
+    height: 30%;
+    /* border: 5px solid hotpink; */
+    position: relative;
+    /* float: right; */
+      color: white;
+  }
+  
+.footerarea{
+    width:20%;
+    height:100%;
+    float:left;
+    margin-right:1.2%;
+    margin-left: 1.2%;
+    /* border: 7px solid green; */
+    align-items: center;
+    text-align: center;
+      color: white;
+  }
+.lowerarea{
+    height: 25%;
+    position: relative;
+    top:10px;
+    /* border:3px solid brown; */
+    text-align: right;
+    margin-right: 15px;
+    font-family: Helvetica;
+      color: white;
+  }
+.copyright{
+    height: 10%;
+    text-align: center;
+    /* border: 2px solid lightgreen; */
+    color: white;
+    margin-top: 20px;
+  }
+  
+.smalllogo{
+    width: 2%;
+    height: 16%;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    float: right;
+    margin-right: 2%;
+  }
+  
+  
+.smalllogo2{
+    width: 6%;
+    height: 16%;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+    float: right;
+    margin-right: 5%;
+  }
+
+.smalllogo2 img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+.smalllogo img{
+    width: 100%;
+    height: 100%;
+  }
+
+a{
+    text-decoration: none;
+  
+  }
