@@ -1,0 +1,102 @@
+.header{
+    text-align: center;
+}
+
+.visit{
+    text-align: center;
+}
+
+.fname{
+    display: flex;
+    justify-content: center;
+}
+
+.name1{
+    margin-left: 20px;
+}
+
+.lname{
+    display: flex;
+    justify-content: center;
+}
+
+.name2{
+    margin-left: 20px;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+}
+
+.mail1{
+    margin-left: 20px;
+}
+
+.par1{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text1{
+    display: flex;
+    justify-content: center;
+    margin-left: 160px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-left:120px;
+}
+
+.navbar{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.link1::after{
+    padding: 10px 15px;
+    content: "|";
+    margin-right: 5px;
+    color: black;
+    
+}
+
+.link2::after{
+    padding: 10px 15px;
+    content: "|";
+    margin-right: 5px;
+    color: black;
+    
+}
+
+.link3::after{
+    padding: 10px 15px;
+    content: "|";
+    margin-right: 5px;
+    color: black;
+    
+}
+
+.link4::after{
+    padding: 10px 15px;
+    /*content: "|";*/
+    margin-right: 5px;
+    color: black;
+
+}

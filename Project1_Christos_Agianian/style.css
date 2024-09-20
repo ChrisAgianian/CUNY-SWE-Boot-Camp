@@ -1,0 +1,180 @@
+
+.planelogo{
+    display:flex;
+    width: 20%;
+    height: 100%;
+    
+}
+
+.greecelogo{
+    display:flex;
+    width: 10%;
+    height: 100%;
+    
+}
+
+.logos{
+    justify-content: space-between;
+    display: flex;
+    margin: 5px;
+}
+
+.greece{
+    text-align: center;
+}
+
+.box{
+    justify-content: center;
+    width: 90%;
+    height: 550px;
+    margin: 5%;
+    border: 2px solid black;
+    background-color: lightpink;
+}
+
+.box1{
+    display:flex;
+    justify-content: center;
+}
+
+.things{
+    margin-left: 10px;;
+}
+
+.pic1, .pic2{
+    border: 2px solid yellow;
+    width: 25%;
+    height: 170px;
+    margin-top: 5px;
+    margin-left:40px;
+    float:left;
+  }
+
+  .acropolis {
+    
+    width: 100%;
+    height: 100%;
+  }
+
+  .acropolis img{
+    width: 100%;
+    height: 100%;
+    float:left;
+  }
+
+  .santorini {
+    
+    width: 100%;
+    height: 170px;
+    float: left;
+  }
+
+  .santorini img{
+    
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    float:left;
+  }
+
+  .par1{
+    width: 60%;
+    height: 200px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  
+  .par2{
+    width: 60%;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+
+.logo1{
+    display: flex;
+    width: 40px;
+    height:40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.logo2{
+    display: flex;
+    width: 40px;
+    height:40px;
+    margin-right: 10px;   
+    margin-top: 10px;
+    margin-left: 40px; 
+}
+
+.logo3{
+    display: flex;
+    width: 40px;
+    height:40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.num{
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.email{
+    white-space: nowrap;
+}
+.mailpar{
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.follow{
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+.link1::after{
+    padding: 10px 15px;
+    content: "|";
+    margin-right: 5px;
+    color: black;
+    
+}
+
+.link2::after{
+    padding: 10px 15px;
+    content: "|";
+    margin-right: 5px;
+    color: black;
+    
+}
+
+.link3::after{
+    padding: 10px 15px;
+    content: "|";
+    margin-right: 5px;
+    color: black;
+    
+}
+
+.link4::after{
+    padding: 10px 15px;
+    /*content: "|";*/
+    margin-right: 5px;
+    color: black;
+
+}
